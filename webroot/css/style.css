@@ -1,0 +1,80 @@
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+}
+#odin_order_resources_processing {
+    padding: 15px;
+    color: red;
+    font-weight: bold;
+}
+.loader {
+    position: absolute;
+    left: 45%;
+    top: 33%;
+}
+
+.loader-over {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.12); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.disabled-input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 248, 248, 0.15);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    cursor: not-allowed;
+}
+input.checked_input {
+    opacity: 0.5;
+}
+.table>tbody>tr>td.cmd_detail {
+    padding: 0;
+}
+.table_cmd_article{
+
+}
+
+.cmd-actions {
+    display: inline;
+}
+
+.cmd-manage-comment {
+    font-size: 18px;
+    padding: 6px;
+}
+
+.modal-body .row{
+    margin: 0;  
+}
+
+.modal-body blockquote{
+    font-size: 14.5px;
+    cursor: pointer;
+}
+.loading-comment{
+    text-align: center;
+    display: none;
+}
+.comment-list {
+    max-height: 250px;
+    overflow-y: auto;
+}
+.line_comment:hover {
+    background-color: #d9edf7;
+}
+.action_icon{
+    padding: 0 5px;
+}
